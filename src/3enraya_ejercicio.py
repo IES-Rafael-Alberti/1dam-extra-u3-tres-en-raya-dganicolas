@@ -8,7 +8,7 @@ FICHAS = (' ', 'X', 'O')
 #TODO: Matriz 3x3 con los conjuntos de posiciones permitidas desde cada par fila, columna del tablero:
 # Una tupla que contendrá 3 tuplas (filas), cada una tendrá 3 conjuntos (columnas), 
 # donde cada elemento de un conjunto es una posición accesible en forma de tupla (fila, columna)
-POSICIONES_PERMITIDAS = ???
+POSICIONES_PERMITIDAS = ([0,0,0],[0,0,0],[0,0,0],)
 
 
 def borrarConsola():
